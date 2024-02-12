@@ -10,7 +10,7 @@ I think this is an interesting project nonetheless. Here's why.
 The data feed is stripped access of the Binance API, and uses daily Bitcoin price data. There are dozens of decent similar market and data feeds you can use, 
 and you can easily extend the code to use those too.
 
-The prediction model itself is a deep learning model that captures historical trends and generates predictions out to 50 days. Deep learning models are astonishingly accurate at times and they tend to do pretty well with illiquid disconnected markets like crypto at times.
+The prediction model itself is a deep learning model that captures historical trends and generates predictions out to 50 days. Deep learning models are astonishingly accurate at times and they tend to do pretty well with illiquid disconnected markets like crypto.
 
 ### Tools
 
