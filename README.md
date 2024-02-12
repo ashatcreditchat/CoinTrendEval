@@ -31,7 +31,7 @@ Streaming but the micro-batch is daily for simplicity. So, an EOD batch basicall
 
 Uses a simple ensemble of Multi-Layer Perceptron (MLP) and Long Short-Term Memory (LSTM) RNNs built using Scikitlearn and TensorFlow. LSTMs are particularly useful for tasks involving sequential data, such as time series analysis we use for market data and asset valuation. 
 
-Feature engineering and hyperparameter tuning enhances the model's performance but the model does pretty well out-of-the-box too. The aim of this project is to demo data engineering and containerization - not make anyone rich (or poor) trading shitcoins.
+Feature engineering and hyperparameter tuning enhances the model's performance but the model does pretty well out-of-the-box too. Anyway, the aim of this project is to demo data engineering and containerization - not make anyone rich (or poor) trading shitcoins.
 
 ### Structure of the Project
 
