@@ -44,7 +44,7 @@ The feature pipeline retrieves our data via the Binance API. Subsequent preproce
 In the training pipeline, the LSTM model is trained using the preprocessed features from the feature store. The model is registered for future use.
 The daily feature pipeline functions to update the feature store with the most recent data. It takes the current day's price, applies the same preprocessing as done in the feature pipeline, and then stores this updated information in the feature store.
 
-Note that we're using Hopsworks as the feature store. Hopsworks is slower to work with vs GCP/AWS/Azure but it's free. You can work with it via Jupyter notebooks and it has some nice features for setting up feature groups and sharing across pipelines etc. It's not Azure Data Factory but I like it.
+Note that we're using Hopsworks as the feature store. Hopsworks is slower to work with vs GCP/AWS/Azure but it's free. You can work with it via Jupyter notebooks and it has some nice features for setting up feature groups and sharing across pipelines etc. It's not Azure Data Factory but I like it. It will save you clicks and $ over Azure.
 
 Lastly, our UI captures user input regarding the desired prediction period, specifying how many days ahead the prediction should extend. Utilizing the up-to-date data from the feature store and the registered LSTM model, the system then generates and displays a graph representing the predicted prices for the specified period.
 

@@ -5,7 +5,6 @@ COPY requirements.txt ${LAMBDA_TASK_ROOT}
 RUN pip install --upgrade pip
 
 #install ffmpeg and sudo
-#RUN yum -y sudo
 RUN yum install -y gcc
 RUN pip install -r requirements.txt
 
