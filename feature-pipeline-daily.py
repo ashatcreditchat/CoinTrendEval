@@ -16,7 +16,7 @@ fs = project.get_feature_store()
 
 #read configs
 config = configparser.ConfigParser()
-config_file_path = "C:/Users/User/Desktop/mldl/project/config.ini"  # Replace with the actual path to your config.ini file
+config_file_path = "C:/Users/ash/project/config.ini"  # Replace with the actual path to your config.ini file
 config.read(config_file_path)
 config.read("config.ini") #The Config.ini file we just created
 
